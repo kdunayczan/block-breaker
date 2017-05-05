@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: c5cbab9afed9e4e30ade267968ea7fd0
+timeCreated: 1493231622
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Arsle Gothic
+  fontNames:
+  - Arsle Gothic
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
