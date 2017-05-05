@@ -28,11 +28,11 @@ public class Ball : MonoBehaviour {
 	}
 
 	void OnCollisionEnter2D (Collision2D collision) {
-		Vector2 tweak = new Vector2 (Random.Range(0f, 0.2f), Random.Range(0f, 0.2f));
+		Vector2 tweak = new Vector2(Random.Range(-0.6f, 0.6f), Random.Range(0f, 0f));
 
 		if (hasStarted) {
 			GetComponent<AudioSource> ().Play ();
-			rigidbody2D.velocity += tweak;
+			this.GetComponent<Rigidbody2D>().velocity += tweak;
 		}
 	}
 }
